@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter basename={import.meta.env.VITE_BASE}>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
           <header className="bg-accent-dark text-main-light py-4 px-6 shadow-md">
         <nav className="flex justify-between items-center">
           <Link
