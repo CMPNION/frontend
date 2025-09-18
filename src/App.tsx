@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import HomePage from './pages/HomePage/Homepage';
 import './index.css'
 import Assignmentone from "./pages/Assignment1/Assignment1"
+import Assignment2 from "./pages/Assignment2/Assignment2";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path={'/'} element={<HomePage />}/>
         <Route path={'/1'} element={<Assignmentone />} />
+        <Route path={'/2'} element={<Assignment2 />} />
       </Routes>
     </BrowserRouter>
     </>

@@ -2,7 +2,7 @@
 import Button from "../../components/Button/Button";
 
 function HomePage() {
-    const done = [1]
+    const done = [1, 2]
     return ( 
     <>
     
