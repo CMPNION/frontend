@@ -19,8 +19,6 @@ function HomePage() {
           </Button>
         ))}
       </div>
-        
-
 
     </>
 
