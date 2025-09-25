@@ -5,7 +5,6 @@ function HomePage() {
     const done = [1, 2, 3]
     return ( 
     <>
-    
         <title>Home Page</title>
     
     <nav className="text-main-light flex justify-center align-middle py-2">
